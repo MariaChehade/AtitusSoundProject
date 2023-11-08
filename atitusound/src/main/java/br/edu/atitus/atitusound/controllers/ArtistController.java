@@ -1,9 +1,7 @@
 package br.edu.atitus.atitusound.controllers;
 
 import org.springframework.beans.BeanUtils;
-
 import org.springframework.web.bind.annotation.RequestMapping;
-
 import org.springframework.web.bind.annotation.RestController;
 
 import br.edu.atitus.atitusound.dtos.ArtistDTO;

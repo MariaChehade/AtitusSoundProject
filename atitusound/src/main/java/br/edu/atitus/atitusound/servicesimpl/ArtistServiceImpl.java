@@ -1,6 +1,5 @@
 package br.edu.atitus.atitusound.servicesimpl;
 
-
 import org.springframework.stereotype.Service;
 
 import br.edu.atitus.atitusound.entities.ArtistEntity;

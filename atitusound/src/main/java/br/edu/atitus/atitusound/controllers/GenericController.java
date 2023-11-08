@@ -73,7 +73,7 @@ public abstract class GenericController<TEntidade extends GenericEntity, TDto> {
 			return ResponseEntity.badRequest().header("error", e.getMessage()).build();
 		}
 		return ResponseEntity.status(HttpStatus.OK).body(entidade);
-	
+		//return ResponseEntity.ok(entidade);
 	}
 	
 	@DeleteMapping("/{uuid}")
